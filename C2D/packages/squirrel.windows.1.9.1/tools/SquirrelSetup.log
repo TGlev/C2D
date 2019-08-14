@@ -55,3 +55,48 @@
 2019-08-14 20:23:48> ReleasePackage: Removing unnecessary data
 2019-08-14 20:23:48> ReleasePackage: No release notes found in C:\Users\Luca\AppData\Local\SquirrelTemp\tempa\C2D.nuspec
 2019-08-14 20:23:48> Program: Building embedded zip file for Setup.exe
+2019-08-14 21:02:06> Program: Starting Squirrel Updater: --releasify .\C2D.1.0.1.nupkg
+2019-08-14 21:02:06> Program: Bootstrapper EXE found at:C:\Users\Luca\source\repos\C2D\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-14 21:02:06> Program: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.1.nupkg
+2019-08-14 21:02:06> ReleasePackage: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.1.nupkg => C:\Users\Luca\source\repos\C2D\Releases\C2D-1.0.1-full.nupkg
+2019-08-14 21:02:06> ReleasePackage: Extracting dependent packages: []
+2019-08-14 21:02:06> ReleasePackage: Removing unnecessary data
+2019-08-14 21:02:06> ReleasePackage: No release notes found in C:\Users\Luca\AppData\Local\SquirrelTemp\tempa\C2D.nuspec
+2019-08-14 21:02:07> DeltaPackageBuilder: Extracting .\Releases\C2D-1.0.0-full.nupkg and C:\Users\Luca\source\repos\C2D\Releases\C2D-1.0.1-full.nupkg into C:\Users\Luca\AppData\Local\SquirrelTemp\tempb
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\AppCenter.config hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\C2D.exe hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\C2D.exe.config hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\C2D.Shared.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\C2D_ExecutionStub.exe hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Microsoft.AppCenter.Analytics.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Microsoft.AppCenter.Crashes.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Microsoft.AppCenter.Distribute.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Microsoft.AppCenter.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\NPOI.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Npoi.Mapper.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\NPOI.OOXML.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\NPOI.OpenXml4Net.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\NPOI.OpenXmlFormats.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\RestSharp.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\SQLite-net.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\SQLitePCLRaw.batteries_green.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\SQLitePCLRaw.batteries_v2.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\SQLitePCLRaw.core.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\SQLitePCLRaw.provider.e_sqlite3.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\Resources\AppIcon.ico hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\x64\e_sqlite3.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\x86\e_sqlite3.dll hasn't changed, writing dummy file
+2019-08-14 21:02:07> Program: Building embedded zip file for Setup.exe
