@@ -1,0 +1,22 @@
+﻿<Window x:Class="C2D.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:C2D"
+        mc:Ignorable="d"
+        Title="Instellingen" Height="277.847" Width="265.667" ResizeMode="NoResize">
+    <StackPanel HorizontalAlignment="Left" Height="241.472" VerticalAlignment="Top" Width="255.667">
+        <TextBlock HorizontalAlignment="Left" Height="16.192" Margin="10,0,0,0" TextWrapping="Wrap" Width="170.625"><Run Text="ID"/><LineBreak/><Run/></TextBlock>
+        <PasswordBox x:Name="txt_ID" HorizontalAlignment="Left" Height="19.999" Margin="10,0,0,0" Width="235.667"/>
+        <TextBlock HorizontalAlignment="Left" Height="16.192" Margin="10,0,0,0" TextWrapping="Wrap" Width="170.625" Text="Secret"/>
+        <PasswordBox x:Name="txt_Secret" HorizontalAlignment="Left" Height="19.999" Margin="10,0,0,0" Width="235.667"/>
+        <TextBlock HorizontalAlignment="Left" Height="16.192" Margin="10,0,0,0" TextWrapping="Wrap" Width="170.625" Text="Username"/>
+        <PasswordBox x:Name="txt_Username" HorizontalAlignment="Center" Height="19.79" Margin="10,0" Width="235.667" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Height="16.192" Margin="10,0,0,0" TextWrapping="Wrap" Width="170.625"><Run Text="Password"/><LineBreak/><Run/></TextBlock>
+        <PasswordBox x:Name="txt_Password" HorizontalAlignment="Left" Height="19.999" Margin="10,0,0,0" Width="235.667"/>
+        <TextBlock HorizontalAlignment="Left" Height="16.192" Margin="10,0,0,0" TextWrapping="Wrap" Width="170.625"><Run Text="Extension"/><LineBreak/><Run/></TextBlock>
+        <PasswordBox x:Name="txt_Extension" HorizontalAlignment="Center" Height="19.79" Margin="10,0" Width="235.667" VerticalAlignment="Top"/>
+        <Button x:Name="btn_Next" Content="Opslaan" HorizontalAlignment="Left" Height="44.528" Margin="10,10,0,0" Width="235.667" Click="Btn_Next_Click" />
+    </StackPanel>
+</Window>

@@ -1,0 +1,57 @@
+﻿2019-08-14 20:08:04> Program: Starting Squirrel Updater: 
+2019-08-14 20:08:17> Program: Starting Squirrel Updater: --releasify .\C2D.1.0.0.nupkg
+2019-08-14 20:08:17> Program: Bootstrapper EXE found at:C:\Users\Luca\source\repos\C2D\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-14 20:08:17> Program: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg
+2019-08-14 20:08:17> Unhandled exception: System.InvalidOperationException: The input package file C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg targets no platform and cannot be transformed into a release package.
+   bij Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   bij Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   bij Squirrel.Update.Program.executeCommandLine(String[] args)
+   bij Squirrel.Update.Program.main(String[] args)
+2019-08-14 20:08:33> Program: Starting Squirrel Updater: --releasify C2D.1.0.0.nupkg
+2019-08-14 20:08:33> Program: Bootstrapper EXE found at:C:\Users\Luca\source\repos\C2D\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-14 20:08:33> Program: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg
+2019-08-14 20:08:33> Unhandled exception: System.InvalidOperationException: The input package file C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg targets no platform and cannot be transformed into a release package.
+   bij Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   bij Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   bij Squirrel.Update.Program.executeCommandLine(String[] args)
+   bij Squirrel.Update.Program.main(String[] args)
+2019-08-14 20:10:37> Program: Starting Squirrel Updater: --releasify C2D.1.0.0.nupkg
+2019-08-14 20:10:37> Program: Bootstrapper EXE found at:C:\Users\Luca\source\repos\C2D\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-14 20:10:37> Program: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg
+2019-08-14 20:10:37> Unhandled exception: System.InvalidOperationException: The input package file C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg targets no platform and cannot be transformed into a release package.
+   bij Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   bij Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   bij Squirrel.Update.Program.executeCommandLine(String[] args)
+   bij Squirrel.Update.Program.main(String[] args)
+2019-08-14 20:11:25> Program: Starting Squirrel Updater: --releasify C2D.1.0.0.nupkg
+2019-08-14 20:11:25> Program: Bootstrapper EXE found at:C:\Users\Luca\source\repos\C2D\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-14 20:11:25> Program: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg
+2019-08-14 20:11:25> Unhandled exception: System.InvalidOperationException: The input package file C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg targets no platform and cannot be transformed into a release package.
+   bij Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   bij Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   bij Squirrel.Update.Program.executeCommandLine(String[] args)
+   bij Squirrel.Update.Program.main(String[] args)
+2019-08-14 20:14:01> Program: Starting Squirrel Updater: --releasify C2D.1.0.0.nupkg
+2019-08-14 20:14:01> Program: Bootstrapper EXE found at:C:\Users\Luca\source\repos\C2D\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-14 20:14:01> Program: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg
+2019-08-14 20:14:01> ReleasePackage: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg => C:\Users\Luca\source\repos\C2D\Releases\C2D-1.0.0-full.nupkg
+2019-08-14 20:14:01> ReleasePackage: Extracting dependent packages: []
+2019-08-14 20:14:01> ReleasePackage: Removing unnecessary data
+2019-08-14 20:14:01> ReleasePackage: No release notes found in C:\Users\Luca\AppData\Local\SquirrelTemp\tempa\C2D.nuspec
+2019-08-14 20:14:02> Program: Building embedded zip file for Setup.exe
+2019-08-14 20:17:20> Program: Starting Squirrel Updater: --releasify C2D.1.0.0.nupkg
+2019-08-14 20:17:20> Program: Bootstrapper EXE found at:C:\Users\Luca\source\repos\C2D\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-14 20:17:20> Program: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg
+2019-08-14 20:17:20> ReleasePackage: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg => C:\Users\Luca\source\repos\C2D\Releases\C2D-1.0.0-full.nupkg
+2019-08-14 20:17:21> ReleasePackage: Extracting dependent packages: []
+2019-08-14 20:17:21> ReleasePackage: Removing unnecessary data
+2019-08-14 20:17:21> ReleasePackage: No release notes found in C:\Users\Luca\AppData\Local\SquirrelTemp\tempa\C2D.nuspec
+2019-08-14 20:17:21> Program: Building embedded zip file for Setup.exe
+2019-08-14 20:23:47> Program: Starting Squirrel Updater: --releasify C2D.1.0.0.nupkg
+2019-08-14 20:23:47> Program: Bootstrapper EXE found at:C:\Users\Luca\source\repos\C2D\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-14 20:23:47> Program: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg
+2019-08-14 20:23:47> ReleasePackage: Creating release package: C:\Users\Luca\source\repos\C2D\Releases\C2D.1.0.0.nupkg => C:\Users\Luca\source\repos\C2D\Releases\C2D-1.0.0-full.nupkg
+2019-08-14 20:23:48> ReleasePackage: Extracting dependent packages: []
+2019-08-14 20:23:48> ReleasePackage: Removing unnecessary data
+2019-08-14 20:23:48> ReleasePackage: No release notes found in C:\Users\Luca\AppData\Local\SquirrelTemp\tempa\C2D.nuspec
+2019-08-14 20:23:48> Program: Building embedded zip file for Setup.exe

@@ -1,0 +1,80 @@
+﻿<Window x:Class="C2D.ContactEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:C2D"
+        mc:Ignorable="d"
+        Title="Contact Detail" Height="450" Width="682.582" ResizeMode="NoResize" Topmost="True" Icon="Resources/icon.ico">
+    <Grid HorizontalAlignment="Left" Height="419.374" VerticalAlignment="Top" Width="656.144">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="371*"/>
+            <ColumnDefinition Width="71*"/>
+            <ColumnDefinition Width="215*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+        <StackPanel HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="220" Margin="10,0,0,0">
+            <TextBlock TextWrapping="Wrap" Text="Bedrijfsnaam"/>
+            <TextBox x:Name="txt_CompanyName" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Aanhef"/>
+            <TextBox x:Name="txt_Gender" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Voornaam"/>
+            <TextBox x:Name="txt_FirstName" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Tussenvoegsel"/>
+            <TextBox x:Name="txt_Preposition" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Achternaam"/>
+            <TextBox x:Name="txt_LastName" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Straatnaam"/>
+            <TextBox x:Name="txt_Street" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Huisnummer + toevoeging"/>
+            <Grid HorizontalAlignment="Left" Height="23.679" VerticalAlignment="Top" Width="210.333">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140*"/>
+                    <ColumnDefinition Width="71*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="txt_Number" TextWrapping="Wrap" Margin="0,0.679,31.295,0" TextChanged="TextBox_TextChanged"/>
+                <TextBox x:Name="txt_NumberExtra" TextWrapping="Wrap" Margin="113.307,0.679,0,0" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2"/>
+            </Grid>
+            <TextBlock TextWrapping="Wrap" Text="Postcode"/>
+            <TextBox x:Name="txt_Zipcode" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Stad"/>
+            <TextBox x:Name="txt_City" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Height="17.243"><Run Text="Land"/><LineBreak/><Run/></TextBlock>
+            <TextBox x:Name="txt_Country" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="221" Margin="230,0,0,0" Grid.ColumnSpan="3">
+            <TextBlock TextWrapping="Wrap" Text="Telefoon 1"/>
+            <TextBox x:Name="txt_PhoneNumberOne" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap"><Run Text="Telefoon 1 "/><Run Text="opmerking"/></TextBlock>
+            <TextBox x:Name="txt_PhoneNumberOneDescription" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Telefoon 2"/>
+            <TextBox x:Name="txt_PhoneNumberTwo" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap"><Run Text="Telefoon 2 "/><Run Text="opmerking"/></TextBlock>
+            <TextBox x:Name="txt_PhoneNumberTwoDescription" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Telefoon 3"/>
+            <TextBox x:Name="txt_PhoneNumberThree" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap"><Run Text="Telefoon 3 "/><Run Text="opmerking"/></TextBlock>
+            <TextBox x:Name="txt_PhoneNumberThreeDescription" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Fax"/>
+            <TextBox x:Name="txt_Fax" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap"><Run Text="Fax "/><Run Text="opmerking"/></TextBlock>
+            <TextBox x:Name="txt_FaxDescription" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Mobiel nummer"/>
+            <TextBox x:Name="txt_MobilePhoneOne" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Height="17.243" Text="Mobiel nummer opmerking"/>
+            <TextBox x:Name="txt_MobilePhoneOneDescription" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="220" Margin="9.667,0,-15,0" Grid.Column="2">
+            <TextBlock TextWrapping="Wrap" Text="Website"/>
+            <TextBox x:Name="txt_Website" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Email"/>
+            <TextBox x:Name="txt_Email" Height="23" TextWrapping="Wrap" Margin="0,0,10,0" TextChanged="TextBox_TextChanged"/>
+            <TextBlock TextWrapping="Wrap" Text="Notities"/>
+            <TextBox x:Name="txt_Notes" Height="108.715" TextWrapping="Wrap" Margin="0,0,10,0" AcceptsReturn="True" TextChanged="TextBox_TextChanged"/>
+            <Button Style="{StaticResource RoundedButtonStyle}" Foreground="White" x:Name="btn_Mail" Content="Mail contactpersoon" HorizontalAlignment="Left" Height="37.973" VerticalAlignment="Top" Width="210.333" Margin="0, 8.5, 0, 0" Click="Btn_Mail_Click"/>
+            <Button Style="{StaticResource RoundedButtonStyle}" Foreground="White" x:Name="btn_Call" Content="Bel contactpersoon" HorizontalAlignment="Left" Height="37.973" VerticalAlignment="Top" Width="210.333" Margin="0, 9, 0, 0" Click="Btn_Call_Click"/>
+            <Button Style="{StaticResource RoundedButtonStyle}" Foreground="White" x:Name="btn_Save" Content="Sla wijzigingen op" HorizontalAlignment="Left" Height="37.973" VerticalAlignment="Top" Width="210.333" Margin="0, 10, 0, 0" Click="Btn_Save_Click" IsEnabled="False"/>
+            <Button Style="{StaticResource RoundedButtonStyle}" Foreground="White" x:Name="btn_Delete" Content="Verwijder contactpersoon" HorizontalAlignment="Left" Height="37.973" VerticalAlignment="Top" Width="210.333" Margin="0, 10, 0, 0" Click="Btn_Delete_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
