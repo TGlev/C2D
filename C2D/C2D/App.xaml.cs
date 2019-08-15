@@ -6,6 +6,7 @@ using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Microsoft.AppCenter.Distribute;
+using Squirrel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -79,6 +80,13 @@ namespace C2D
             }
             UserSettings = DatabaseManager.GetUser();
             MainWindow.Closing += MainWindow_Closing;
+
+            using (var mgr =  UpdateManager.GitHubUpdateManager("https://github.com/TGlev/C2D"))
+            {
+                var result = await mgr.Result.UpdateApp();
+                if(result?.Version.ToString() != null)
+                    MessageBox.Show("Er is een update geïnstalleerd! Start de applicatie opnieuw op om deze te activeren.");
+            }
         }
 
         protected override void OnStartup(StartupEventArgs e)

@@ -100,3 +100,19 @@
 2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\x64\e_sqlite3.dll hasn't changed, writing dummy file
 2019-08-14 21:02:07> DeltaPackageBuilder: \lib\net45\x86\e_sqlite3.dll hasn't changed, writing dummy file
 2019-08-14 21:02:07> Program: Building embedded zip file for Setup.exe
+2019-08-14 21:19:20> Program: Starting Squirrel Updater: --releasify .\C2D.1.0.0.nupkg
+2019-08-14 21:19:20> Program: Bootstrapper EXE found at:C:\Users\Luca\Documents\GitHub\C2D\C2D\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-14 21:19:20> Program: Creating release package: C:\Users\Luca\Documents\GitHub\C2D\C2D\Releases\C2D.1.0.0.nupkg
+2019-08-14 21:19:20> ReleasePackage: Creating release package: C:\Users\Luca\Documents\GitHub\C2D\C2D\Releases\C2D.1.0.0.nupkg => C:\Users\Luca\Documents\GitHub\C2D\C2D\Releases\C2D-1.0.0-full.nupkg
+2019-08-14 21:19:21> ReleasePackage: Extracting dependent packages: []
+2019-08-14 21:19:21> ReleasePackage: Removing unnecessary data
+2019-08-14 21:19:21> ReleasePackage: No release notes found in C:\Users\Luca\AppData\Local\SquirrelTemp\tempa\C2D.nuspec
+2019-08-14 21:19:21> Program: Building embedded zip file for Setup.exe
+2019-08-14 21:19:35> Program: Starting Squirrel Updater: --releasify .\C2D.1.0.0.nupkg
+2019-08-14 21:19:35> Program: Bootstrapper EXE found at:C:\Users\Luca\Documents\GitHub\C2D\C2D\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-14 21:19:35> Program: Creating release package: C:\Users\Luca\Documents\GitHub\C2D\C2D\Releases\C2D.1.0.0.nupkg
+2019-08-14 21:19:35> ReleasePackage: Creating release package: C:\Users\Luca\Documents\GitHub\C2D\C2D\Releases\C2D.1.0.0.nupkg => C:\Users\Luca\Documents\GitHub\C2D\C2D\Releases\C2D-1.0.0-full.nupkg
+2019-08-14 21:19:35> ReleasePackage: Extracting dependent packages: []
+2019-08-14 21:19:35> ReleasePackage: Removing unnecessary data
+2019-08-14 21:19:35> ReleasePackage: No release notes found in C:\Users\Luca\AppData\Local\SquirrelTemp\tempa\C2D.nuspec
+2019-08-14 21:19:36> Program: Building embedded zip file for Setup.exe
